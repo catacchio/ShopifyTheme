@@ -120,15 +120,15 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/Screenshot_2023-12-02_alle_21.20.19.png",
-          "logo_width": 120,
+          "logo_width": 100,
           "logo_position": "top-center",
-          "menu": "main-menu",
+          "menu": "menu-sidebar",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0,
-          "padding_top": 20,
-          "padding_bottom": 20
+          "padding_top": 12,
+          "padding_bottom": 0
         }
       },
       "footer": {
