@@ -2,6 +2,11 @@
   "sections": {
     "58ff6e27-4971-415f-b5e2-70cb7ce842c1": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".parole-links {border-radius: 8px; \/* Aggiungi bordi arrotondati *\/ border: 8px solid #000; \/* Bordo nero *\/ border-top: 7px solid #fff; \/* Bordo bianco sopra *\/ border-bottom: 7px solid #fff; \/* Bordo bianco sotto *\/}",
+        ".parole-links a {color: #4c2a85; \/* Colore del testo *\/ text-decoration: none; \/* Rimuovi la sottolineatura dai link *\/ margin-right: 120px; \/* Aggiungi spazio tra i link *\/ padding-left: 20px; \/* Aggiungi spazio a sinistra *\/}",
+        ".parole-links a.custom {margin-right: 70px; \/* Aggiungi uno spazio più grande al link \"CUSTOM\" *\/}"
+      ],
       "settings": {
         "custom_liquid": "<style>\n  .parole-links {\n    display: flex;\n    justify-content: space-around; \/* Puoi cambiare con space-between o space-evenly a seconda delle tue esigenze *\/\n  }\n\n  .parole-links a {\n    text-decoration: none;\n  }\n<\/style>\n\n<div class=\"parole-links\">\n  <a href=\"{{ link_tovaglie }}\">TOVAGLIE<\/a>\n  <a href=\"{{ link_cuscini }}\">CUSCINI<\/a>\n  <a href=\"{{ link_plaid }}\">PLAID<\/a>\n  <a href=\"{{ link_tende }}\">TENDE<\/a>\n  <a href=\"{{ link_custom }}\">CUSTOM<\/a>\n<\/div>",
         "type_custom": "default",
