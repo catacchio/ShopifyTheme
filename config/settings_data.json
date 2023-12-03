@@ -379,5 +379,19 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".parole-links {background-color: #d8b3ff; \/* Viola chiaro *\/ font-weight: bold; font-family: \"FontAwesome\"; padding: 10px; \/* Aggiungi spazio interno per migliorare l'estetica *\/ border-radius: 8px; \/* Aggiungi bordi arrotondati *\/}",
+      ".parole-links a {color: #4c2a85; \/* Colore del testo *\/ text-decoration: none; \/* Rimuovi la sottolineatura dai link *\/ margin-right: 135px; \/* Aggiungi spazio tra i link *\/}",
+      ".parole-links a:hover {text-decoration: underline; \/* Sottolinea il testo quando il mouse passa sopra al link *\/}",
+      ".fa-lg {font-size: 1.33333333em; line-height: 0.75em; vertical-align: -15%;}",
+      ".fa-2x {font-size: 2em;}",
+      ".fa-3x {font-size: 3em;}",
+      ".fa-4x {font-size: 4em;}",
+      ".fa-5x {font-size: 5em;}",
+      ".fa-fw {width: 1.28571429em; text-align: center;}",
+      ".fa-ul {padding-left: 0; margin-left: 2.14285714em; list-style-type: none;}"
+    ]
   }
 }

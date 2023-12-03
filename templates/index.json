@@ -1,5 +1,15 @@
 {
   "sections": {
+    "58ff6e27-4971-415f-b5e2-70cb7ce842c1": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .parole-links {\n    display: flex;\n    justify-content: space-around; \/* Puoi cambiare con space-between o space-evenly a seconda delle tue esigenze *\/\n  }\n\n  .parole-links a {\n    text-decoration: none;\n  }\n<\/style>\n\n<div class=\"parole-links\">\n  <a href=\"{{ link_tovaglie }}\">TOVAGLIE<\/a>\n  <a href=\"{{ link_cuscini }}\">CUSCINI<\/a>\n  <a href=\"{{ link_plaid }}\">PLAID<\/a>\n  <a href=\"{{ link_tende }}\">TENDE<\/a>\n  <a href=\"{{ link_custom }}\">CUSTOM<\/a>\n<\/div>",
+        "type_custom": "default",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -36,7 +46,6 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/man-in-white-and-light-tan-outfit.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -55,7 +64,6 @@
         "de45b4f5-4e40-4fef-842c-5c3e2265e090": {
           "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/t-shirt-store.jpg",
             "title": "About us",
             "title_color": "#ff6aa3",
             "details": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec massa non eros auctor egestas et sollicitudin nisl. Praesent luctus nisi quis est dictum, eget elementum nisl viverra. Nam condimentum nunc lobortis magna ullamcorper fermentum. Aenean lacinia metus lacus, non pretium purus convallis ac. Nam vestibulum blandit eleifend. Curabitur rhoncus lobortis augue ut varius. Duis ut mattis risus, consequat ultrices sem. Fusce maximus velit vulputate elementum euismod.<\/p>",
@@ -65,7 +73,6 @@
         "485a6853-bdba-4f04-ab68-5fb06e80b0e2": {
           "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rack-of-womens-clothing.jpg",
             "title": "Item 2 teste",
             "title_color": "#ff6aa3",
             "details": "<p>Quisque vel ipsum sodales, convallis velit sit amet, euismod nisi. Curabitur leo nisi, ultrices quis massa eget, convallis mattis augue. Ut pulvinar aliquet arcu. Ut lectus ipsum, pulvinar ac justo mattis, tempor sagittis massa. Etiam dapibus congue odio, sed lacinia felis accumsan eget. In faucibus eros risus. Integer at posuere felis.<\/p>",
@@ -265,6 +272,7 @@
     }
   },
   "order": [
+    "58ff6e27-4971-415f-b5e2-70cb7ce842c1",
     "image_banner",
     "166077118784b2aa6c",
     "rich_text",
